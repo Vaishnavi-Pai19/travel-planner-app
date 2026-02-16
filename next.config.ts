@@ -10,6 +10,14 @@ const nextConfig: NextConfig = {
     }
     return config;
   },
+  images: {
+    remotePatterns: [
+      {
+        hostname: "0xgzfewyp7.ufs.sh"
+      },
+    ],
+  },
+
 };
 
 export default nextConfig;
